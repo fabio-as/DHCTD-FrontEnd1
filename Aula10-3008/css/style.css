@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+body {
+    height: 800px;
+    background-image: url("../img/background_relax.jpg");
+    background-position: top;
+    background-size: 100%;
+    width: auto;
+    
+           
+}
+
+.titulo {
+    font-size: xx-large;  
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    color: yellow;
+}
+
+.frase {
+    padding-top: 5%;
+    
+    
+}
+
+#botao {
+    position: fixed;
+    bottom: 20px;
+    right: 10%;
+    font-family: monospace;
+    font-size: 15px;
+}
