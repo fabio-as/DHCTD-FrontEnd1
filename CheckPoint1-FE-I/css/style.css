@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&family=Nunito:wght@700&family=Ubuntu:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: auto;
+    height: 1000px;
+}
+
+.nome-da-cidade {
+    font-family: Exo, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgrey;
+    text-align: center;
+}

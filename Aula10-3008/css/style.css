@@ -1,25 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
 
+* {box-sizing: border-box;
+
+}
+
 body {
     height: 800px;
     background-image: url("../img/background_relax.jpg");
     background-position: top;
     background-size: 100%;
     width: auto;
-    
-           
-}
 
-.titulo {
-    font-size: xx-large;  
-    font-family: Ubuntu, Arial, Helvetica, sans-serif;
-    color: yellow;
 }
 
 .frase {
-    padding-top: 5%;
-    
-    
+    position: absolute;
+    padding-left: 10%;
+    padding-top: 50px;
+
+}
+
+.titulo {
+    position: sticky;
+    top: 30%;
+    font-size: xx-large;
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    color: yellow;
+
 }
 
 #botao {
@@ -28,4 +35,5 @@ body {
     right: 10%;
     font-family: monospace;
     font-size: 15px;
+    font-weight: bold;
 }
