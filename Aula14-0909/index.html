@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Aula 14 - 0909</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <img src="/img/WillyWonka.jpg" alt="logo WillyWonka os melhores doces">
+            <h1>Escolha seu doce!</h1>
+            <form action="#" method="GET" id="produtos">
+                <fieldset>
+                    <legend>Balas</legend>
+                    <label>Sua preferência: </label>
+                    <select>
+                        <option>Escolha suas Balas</option>
+                        <optgroup label="Balas Goma"></optgroup>
+                        <option>Açucaradas</option>
+                        <option>Coloridas e lisas</option>
+                        <optgroup label="Balas Iogurte"></optgroup>
+                        <option>Morango</option>
+                        <option>Outros Sabores</option>
+                        <optgroup label="Balas Refrescantes"></optgroup>
+                        <option>Hortelã/Menta</option>
+                        <option>Cereja/Limão/Canela</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend><i>Chocolates</i></legend>
+                    <label>Sua preferência: </label>
+                    <select>
+                        <option>Escolha seus Chocolates</option>
+                        <optgroup label="Chocolate ao Leite"></optgroup>
+                        <option>Com Amendoim</option>
+                        <option>Com Crocante</option>
+                        <optgroup label="Chocolate Branco"></optgroup>
+                        <option>Com Flocos de Óreo</option>
+                        <option>Com Flocos de Arroz</option>
+                        <optgroup label="Chocolate Meio-Amargo"></optgroup>
+                        <option>50% Cacau</option>
+                        <option>70% Cacau</option>
+                    </select>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Biscoitos</legend>
+                    <label>Sua preferência: </label>
+                    <select>
+                        <option>Escolha seus Biscoitos</option>
+                        <optgroup label="Biscoitos Caseiros"></optgroup>
+                        <option>Amanteigados</option>
+                        <option>Tipo Suspiro</option>
+                        <optgroup label="Biscoitos Recheados"></optgroup>
+                        <option>Goiabada</option>
+                        <option>Chocolate</option>
+                        <optgroup label="Biscoito Pão-de-Mel"></optgroup>
+                        <option>Com Cobertura</option>
+                        <option>Sem Cobertura</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <p>
+                    <h2>Formas de Pagamento</h2>
+                    </p>
+                    <div class="FormasPgto">
+                        <input type="radio" id="forma1" name="metodo" value="Dinheiro">
+                        <label for="forma1">Dinheiro</label>
+
+                        <input type="radio" id="forma2" name="metodo" value="PIX" checked>
+                        <label for="forma2">PIX</label>
+
+                        <input type="radio" id="forma3" name="metodo" value="Cartão">
+                        <label for="forma3">Cartão</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <p>
+                    <h2>Observações do Pedido</h2>
+                    </p>
+                    <div class="finalizaped">
+                        <input type="checkbox" name="complemento1" value="Embalagem para Presente">
+                        <label for="complemento1">Embalagem para Presente</label> <br>
+                        <input type="checkbox" name="complemento2" value="Entrega Express" checked>
+                        <label for="complemento2">Entrega Express</label> <br>
+                        <input type="checkbox" name="complemento3" value="Combinar a Data de Entrega">
+                        <label for="complemento3">Combinar a Data de Entrega</label> <br>
+                        <input type="checkbox" name="complemento4" value="Retira na Loja">
+                        <label for="complemento4">Retira na Loja</label> <br>
+                    </div>
+                </fieldset>
+                <p>
+                    <button type="submit" form="produtos" value="Confirmar">Confirmar</button>
+                </p>
+            </form>
+
+            <form action="#" method="GET" id="newsletter">
+                <fieldset>
+                    <legend>Recebas Nossas Novidades!</legend>
+                    <p>
+                        <label>Nome:</label>
+                        <input type="text" name="usuario">
+                    </p>
+                    <p>
+                        <label>Email:</label>
+                        <input type="email" name="email">
+                    </p>
+                    <p>
+                        <button type="submit">Enviar</button>
+                    </p>
+                </fieldset>
+            </form>
+
+
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
